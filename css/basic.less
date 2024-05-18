@@ -270,14 +270,19 @@ samp,
 kbd {
     font-family: Consolas, "Andale Mono WT", "Andale Mono", "Bitstream Vera Sans Mono", "Nimbus Mono L", Monaco, "Courier New", monospace;
     /* same font stack should be used for ".dokuwiki table.diff td" in _diff.css */
-    font-size: 1em;
+    font-size: 0.8em;
     direction: ltr;
     text-align: left;
     /*background-color: @ini_background_site;*/
     background-color: #e0e0e0;
     color: @ini_text;
-    box-shadow: inset 0 0 .3em @ini_border;
+    box-shadow: inset 0 0 .1em @ini_border;
+    border: 1px solid #000;
     border-radius: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 pre {
     overflow: auto;
